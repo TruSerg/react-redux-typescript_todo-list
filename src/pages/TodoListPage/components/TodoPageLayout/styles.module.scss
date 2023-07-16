@@ -1,0 +1,54 @@
+.main {
+  flex: 1 1 auto;
+  padding: 30px 0;
+
+  &FormArea {
+    margin-bottom: 30px;
+  }
+
+  &Form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &IconBtn {
+      font-size: 35px !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #50af31 !important;
+      transition: color .3s ease-in-out;
+
+      &:hover {
+        color: #4b891f !important;
+      }
+    }
+  }
+
+  &TodosArea {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width: 767px) {
+  .main {
+    padding: 25px 0;
+
+    &FormArea {
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media(max-width: 420px) {
+  .main {
+    padding: 20px 0;
+
+    &FormArea {
+      margin-bottom: 20px;
+    }
+  }
+}

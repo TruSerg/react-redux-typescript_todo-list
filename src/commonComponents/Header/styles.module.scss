@@ -1,0 +1,29 @@
+.header {
+  padding: 30px 0;
+
+  &Title {
+    text-align: center;
+    font-size: 42px;
+    color: #1a8ec1;
+  }
+}
+
+@media(max-width: 767px) {
+  .header {
+    padding: 25px 0;
+
+    &Title {
+      font-size: 35px;
+    }
+  }
+}
+
+@media(max-width: 420px) {
+  .header {
+    padding: 20px 0;
+
+    &Title {
+      font-size: 25px;
+    }
+  }
+}

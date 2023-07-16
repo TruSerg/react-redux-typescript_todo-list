@@ -8,9 +8,9 @@ import CustomButton from "../../../../commonComponents/CustomButton";
 import CustomInput from "../../../../commonComponents/CustomInput";
 import TodoItem from "../TodoItem";
 import EditableTodo from "../EditableTodo";
+import NoTodos from "../../../../commonComponents/NoTodosComponent";
 
 import style from "./styles.module.scss";
-import NoTodos from "../../../../commonComponents/NoTodosComponent";
 
 interface TodoPageLayoutProps {
   taskList: ITodo[];

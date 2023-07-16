@@ -7,7 +7,7 @@ interface ContainerProps {
 }
 
 const Container: FC<ContainerProps> = ({ children }) => {
-  return <div className={style.container}>{children}</div>;
+  return <div className={style.container}> {children}</div>;
 };
 
 export default Container;
